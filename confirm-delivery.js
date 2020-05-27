@@ -1,5 +1,5 @@
 const Airtable = require('airtable');
-const base = new Airtable({ apiKey: 'your api key' })
+const base = new Airtable({ apiKey: 'keyEJTQQlKRGQCuab' })
   .base('your base');
 
 exports.handler = (context, {subscriber, delivery, confirmed, response}, done) =>
