@@ -1,6 +1,6 @@
 const Airtable = require('airtable')
 const base = new Airtable({ apiKey: 'keyEJTQQlKRGQCuab' })
-  .base('your base')
+  .base('appJlK7seVbzYDCnO')
 const subscribers = base('subscribers')
 
 async function lookup(digits) {
